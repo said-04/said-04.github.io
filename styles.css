@@ -1,0 +1,121 @@
+/* Esta linea afecta el aspecto de toda la página actual. */
+*{
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* Esta linea determina el aspecto de la sección encabezado. */
+.encabezado{
+  margin: auto;
+  width: 100%;
+  padding-top: 15px; /* Se debe tener cuidado al emplear "padding" pues por si solo crea alrededor del contenido espacio. */
+  padding-bottom: 10px; /* Solo necesitamos "top" y "bottom", creando espacio arriba y abajo. */
+  display:block;
+  text-align: center;
+  color: lightblue;
+  opacity: 0.9;
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+/* -------------------------------------------------------- */
+/* Inicia la sección "menu-principa" */
+/* Esta linea determina el aspecto de la sección "menu-principal" */
+.menu-principal{
+  margin: auto;
+  width: 60%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  display: block;
+  background-color: white;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+}
+
+li a{
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #555;
+  color: white;
+}
+/* Fin de la sección "menu-principal" */
+/* ------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Inicia la sección "Footer" */
+footer{
+  background-color: white;
+  margin-top: 160px;
+}
+
+.redes-sociales{
+  color: black;
+  width: 80%;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.menu-redes{
+  float: right;
+}
+
+.menu-redes-sociales{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.menu-redes-sociales:hover{
+  background-color: white;
+  color: black; 
+}
+
+.propiedad{
+  color: black;
+  background-color: white;
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Esta linea determina el aspecto de los parrafos. */
+p{
+  text-indent: 50px; /* Agrega un espacio al comienzo de cada parrafo, parecido a la sangría. */
+  font-size: 18px; /* Ajusta el tamaño del texto referente a pixel como unidad de medida o referencia. */
+}
+
+/* Esta linea solo es y será utilizada en el titulo de la página. */ 
+h1{
+  text-shadow: 2px 2px 5px blue; /* Esta propiedad agrega sombra al texto; solo especifica sombra horizontal y sombra vertical. */
+  font-size: 30px; /* Ajusta el tamaño del texto referente a pixel como unidad de medida o referente. */
+}
+
+h3{
+  text-indent: 50px;
+}
+
+h3{
+  margin-top: 40px;
+}
