@@ -57,7 +57,7 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background-color: #e6e6d1; /* Esta línea la he agregado para el color del background*/
+  background-color: #f5f5d7; /* Esta línea la he agregado para el color del background*/
 }
 h1,h2,p{
   margin: 0;
