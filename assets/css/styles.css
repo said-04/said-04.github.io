@@ -6,10 +6,12 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== #0E2431 Colores ===== #4d0963*/
 :root{
-  --first-color: #4d0963;
-  --second-color: #0E2431;
+  --first-color: white;
+  --second-color: white;
+  --three-color: #4d0963;
+  --four-color: #0E2431;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -56,8 +58,8 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
-  background-color: #f5f5d7; /* Esta línea la he agregado para el color del background*/
+  color: var(--four-color);
+  background-color: white; /* Esta línea la he agregado para el color del background*/
 }
 h1,h2,p{
   margin: 0;
@@ -111,13 +113,14 @@ img{
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
+/*Propiedades de la barra header.*/
 .l-header{
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #0e2431;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -198,7 +201,7 @@ img{
   margin-bottom: var(--mb-5);
 }
 .home__title-color{
-  color: var(--first-color);
+  color: var(--three-color);
 }
 .home__social{
   display: flex;
@@ -208,10 +211,10 @@ img{
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: var(--four-color);
 }
 .home__social-icon:hover{
-  color: var(--first-color);
+  color: var(--three-color);
 }
 .home__img{
   position: absolute;
@@ -344,7 +347,7 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
+  background-color: var(--four-color);
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
